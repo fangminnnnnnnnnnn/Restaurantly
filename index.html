@@ -1,31 +1,6 @@
-<!DOCTYPE html>
+ 
+  <!DOCTYPE html>
 <html lang="en">
-  <!-- index.html -->
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Index Page</title>
-</head>
-<body>
-
-    <!-- Your HTML content here -->
-
-    <!-- Include the shared JavaScript file -->
-    <script src="script.js"></script>
-
-    <!-- Call the shared JavaScript functions -->
-    <script>
-        // Call the logMessage function
-        logMessage('Hello from index.html!');
-
-        // Call the calculateSquare function
-        var result = calculateSquare(5);
-        console.log('Square of 5:', result);
-    </script>
-</body>
-</html>
 
 
 <!DOCTYPE html>
@@ -960,6 +935,24 @@
 <!-- Template Main JS File -->
 <script src="assets/js/main.js"></script>
 
+</body>
+<!-- index.html -->
+<body>
+
+  <!-- Your HTML content here -->
+
+  <!-- Include the shared JavaScript file at the end of the body -->
+  <script src="shared.js"></script>
+
+  <!-- Call the shared JavaScript functions after including the shared file -->
+  <script>
+      // Call the logMessage function
+      logMessage('Hello from index.html!');
+
+      // Call the calculateSquare function
+      var result = calculateSquare(5);
+      console.log('Square of 5:', result);
+  </script>
 </body>
 
 
